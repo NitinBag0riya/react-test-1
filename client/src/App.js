@@ -39,6 +39,7 @@ class App extends Component {
 
     this.channel.bind("pusher:subscription_succeeded",function(members) {
         console.log(members);
+      //its bad practice re-rendering over time but how to avoid this interval use of shouldComponentUpdate or else. help me. 
         setInterval(() => {
         this.setState({
           username: "User" + members.me.id,
