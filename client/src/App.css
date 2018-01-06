@@ -1,0 +1,96 @@
+body {
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif !important;
+}
+
+.three.wide.column {
+  background: #f9f9f9c4;
+  height:100vH;
+  box-shadow: 1px 0px 3px 0px #f2f2f2;
+  padding:0px 0px !important;  
+}
+
+h3.ui.header {
+  background: rgba(0, 0, 0, .87) !important;
+  padding: 10px !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+}
+
+.ui .grid{
+  margin:0px !important;
+}
+
+.ui.divided.relaxed.list > .item {
+  background: transparent !important;
+  padding: 5px 0px !important;
+  border-top:0px !important;
+  border-bottom: .1px solid #f1f1f1 !important;
+  font-size: 12px !important;
+  cursor: pointer;
+  padding-left:10px !important;
+}
+
+.chatBlock{
+  height: 88vH;
+  overflow: hidden !important;
+}
+.chatBlock:hover {
+   overflow-y: scroll;
+ }
+ 
+.ui.divided.relaxed.list > .item:hover {
+  background: #fff !important;
+}
+
+.listText{
+      line-height: 2 !important;
+      font-size: 13px !important;
+      font-weight: 500 !important;
+}
+
+.ui.form {
+  position:absolute;
+   bottom:0;
+   width:100%;
+}
+.uiBtn{
+    width: 40px !important;
+    padding: 0px !important;
+    margin: 0px auto !important;
+    border-radius: 50% !important;
+}
+.send.icon {
+    text-align: center !important;
+    padding: 0px 5px !important;
+}
+
+.me {
+  background: #FFEB3B;
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 15px;
+  border-bottom-left-radius: 1px;
+  color: #292929;
+  font-size: 13px;
+  float:left;
+  transition: all 5s ease-in;
+}
+
+.notme {
+  background: #FFEB3B;
+  float: right;
+  padding: 5px 12px;
+  border-radius: 15px;
+  border-bottom-right-radius: 1px;
+  color: #292929;
+  font-size: 13px;
+  transition: all 5s ease-in;
+}
+.ui.form{
+  width:97% !important;
+}
+
+.sixteen .wide .field{
+    width: '75vW !important'
+  }
